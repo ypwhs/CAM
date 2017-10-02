@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A13B51D81F82B1DD0099DA28 /* model_clf.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A13B51D71F82B1D60099DA28 /* model_clf.mlmodel */; };
+		A13B51D91F82B1DF0099DA28 /* model_cam.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A13B51D61F82B1D00099DA28 /* model_cam.mlmodel */; };
 		A1EBAA681F7FDC9C0099BEB3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EBAA671F7FDC9C0099BEB3 /* AppDelegate.m */; };
 		A1EBAA6B1F7FDC9C0099BEB3 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = A1EBAA6A1F7FDC9C0099BEB3 /* ViewController.mm */; };
 		A1EBAA6E1F7FDC9C0099BEB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1EBAA6C1F7FDC9C0099BEB3 /* Main.storyboard */; };
@@ -19,10 +21,11 @@
 		A1EBAA861F7FE07E0099BEB3 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1EBAA851F7FE07E0099BEB3 /* AssetsLibrary.framework */; };
 		A1EBAA8A1F7FEE2D0099BEB3 /* CoreML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1EBAA891F7FEE2D0099BEB3 /* CoreML.framework */; };
 		A1EBAA8C1F7FEE320099BEB3 /* Vision.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1EBAA8B1F7FEE320099BEB3 /* Vision.framework */; };
-		A1EBAA8F1F7FF0F70099BEB3 /* my_model.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A1EBAA8E1F7FF0CC0099BEB3 /* my_model.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A13B51D61F82B1D00099DA28 /* model_cam.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = model_cam.mlmodel; sourceTree = "<group>"; };
+		A13B51D71F82B1D60099DA28 /* model_clf.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = model_clf.mlmodel; sourceTree = "<group>"; };
 		A1EBAA631F7FDC9C0099BEB3 /* CAM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CAM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1EBAA661F7FDC9C0099BEB3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A1EBAA671F7FDC9C0099BEB3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -39,7 +42,6 @@
 		A1EBAA851F7FE07E0099BEB3 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		A1EBAA891F7FEE2D0099BEB3 /* CoreML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreML.framework; path = System/Library/Frameworks/CoreML.framework; sourceTree = SDKROOT; };
 		A1EBAA8B1F7FEE320099BEB3 /* Vision.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Vision.framework; path = System/Library/Frameworks/Vision.framework; sourceTree = SDKROOT; };
-		A1EBAA8E1F7FF0CC0099BEB3 /* my_model.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = my_model.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +86,8 @@
 				A1EBAA671F7FDC9C0099BEB3 /* AppDelegate.m */,
 				A1EBAA691F7FDC9C0099BEB3 /* ViewController.h */,
 				A1EBAA6A1F7FDC9C0099BEB3 /* ViewController.mm */,
-				A1EBAA8E1F7FF0CC0099BEB3 /* my_model.mlmodel */,
+				A13B51D61F82B1D00099DA28 /* model_cam.mlmodel */,
+				A13B51D71F82B1D60099DA28 /* model_clf.mlmodel */,
 				A1EBAA6C1F7FDC9C0099BEB3 /* Main.storyboard */,
 				A1EBAA6F1F7FDC9C0099BEB3 /* Assets.xcassets */,
 				A1EBAA711F7FDC9C0099BEB3 /* LaunchScreen.storyboard */,
@@ -177,9 +180,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A13B51D91F82B1DF0099DA28 /* model_cam.mlmodel in Sources */,
 				A1EBAA6B1F7FDC9C0099BEB3 /* ViewController.mm in Sources */,
 				A1EBAA761F7FDC9C0099BEB3 /* main.m in Sources */,
-				A1EBAA8F1F7FF0F70099BEB3 /* my_model.mlmodel in Sources */,
+				A13B51D81F82B1DD0099DA28 /* model_clf.mlmodel in Sources */,
 				A1EBAA681F7FDC9C0099BEB3 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
