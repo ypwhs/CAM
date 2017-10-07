@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		A13B51D81F82B1DD0099DA28 /* model_clf.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A13B51D71F82B1D60099DA28 /* model_clf.mlmodel */; };
 		A13B51D91F82B1DF0099DA28 /* model_cam.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A13B51D61F82B1D00099DA28 /* model_cam.mlmodel */; };
+		A13B520C1F8404D60099DA28 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1EBAA811F7FE05D0099BEB3 /* AVFoundation.framework */; };
+		A13B520D1F8404DD0099DA28 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1EBAA831F7FE0710099BEB3 /* CoreMedia.framework */; };
+		A13B520E1F8404E40099DA28 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1EBAA851F7FE07E0099BEB3 /* AssetsLibrary.framework */; };
 		A1EBAA681F7FDC9C0099BEB3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EBAA671F7FDC9C0099BEB3 /* AppDelegate.m */; };
 		A1EBAA6B1F7FDC9C0099BEB3 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = A1EBAA6A1F7FDC9C0099BEB3 /* ViewController.mm */; };
 		A1EBAA6E1F7FDC9C0099BEB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1EBAA6C1F7FDC9C0099BEB3 /* Main.storyboard */; };
@@ -16,11 +19,6 @@
 		A1EBAA731F7FDC9C0099BEB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1EBAA711F7FDC9C0099BEB3 /* LaunchScreen.storyboard */; };
 		A1EBAA761F7FDC9C0099BEB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EBAA751F7FDC9C0099BEB3 /* main.m */; };
 		A1EBAA7E1F7FDD710099BEB3 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1EBAA7C1F7FDD100099BEB3 /* opencv2.framework */; };
-		A1EBAA821F7FE05D0099BEB3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1EBAA811F7FE05D0099BEB3 /* AVFoundation.framework */; };
-		A1EBAA841F7FE0710099BEB3 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1EBAA831F7FE0710099BEB3 /* CoreMedia.framework */; };
-		A1EBAA861F7FE07E0099BEB3 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1EBAA851F7FE07E0099BEB3 /* AssetsLibrary.framework */; };
-		A1EBAA8A1F7FEE2D0099BEB3 /* CoreML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1EBAA891F7FEE2D0099BEB3 /* CoreML.framework */; };
-		A1EBAA8C1F7FEE320099BEB3 /* Vision.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1EBAA8B1F7FEE320099BEB3 /* Vision.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,11 +47,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1EBAA8C1F7FEE320099BEB3 /* Vision.framework in Frameworks */,
-				A1EBAA8A1F7FEE2D0099BEB3 /* CoreML.framework in Frameworks */,
-				A1EBAA861F7FE07E0099BEB3 /* AssetsLibrary.framework in Frameworks */,
-				A1EBAA841F7FE0710099BEB3 /* CoreMedia.framework in Frameworks */,
-				A1EBAA821F7FE05D0099BEB3 /* AVFoundation.framework in Frameworks */,
+				A13B520E1F8404E40099DA28 /* AssetsLibrary.framework in Frameworks */,
+				A13B520D1F8404DD0099DA28 /* CoreMedia.framework in Frameworks */,
+				A13B520C1F8404D60099DA28 /* AVFoundation.framework in Frameworks */,
 				A1EBAA7E1F7FDD710099BEB3 /* opencv2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -12,6 +12,9 @@
 #import <opencv2/highgui/highgui.hpp>
 #import <opencv2/imgproc/imgproc.hpp>
 
+#import "model_clf.h"
+#import "model_cam.h"
+
 @interface ViewController : UIViewController <CvVideoCameraDelegate>
 
 
